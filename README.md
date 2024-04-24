@@ -1,8 +1,8 @@
-### Resturant Form
+### Restaurant Form
 
-Simple Resturant form that show an output when you click Reserve
+Simple Restaurant form that shows an output when you click Reserve
 
-##### Installation
+### Installation
 
-Download repo files and use browser to view webpage or use online link : https://eslamabdelhakem.github.io/Chingu-Project/
+Download repo files and use the browser to view the webpage or use the online link: https://eslamabdelhakem.github.io/Chingu-Project/
 

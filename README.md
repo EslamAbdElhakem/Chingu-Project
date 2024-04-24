@@ -1,6 +1,6 @@
 ### Restaurant Form
 
-Simple Restaurant form that shows an output when you click Reserve
+Simple Restaurant form that shows output when you click Reserve
 
 ### Installation
 

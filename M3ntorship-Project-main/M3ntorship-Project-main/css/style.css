@@ -1,0 +1,208 @@
+    body{
+        margin: auto;
+        font-size: 16px; 
+        text-align: center;
+        padding: 0; /* Remove default body padding */
+        background-image: url('../img/background.jpg'); /* Set background image */
+        background-size: cover; /* Cover the entire background */
+        background-repeat: no-repeat; /* Do not repeat the background image */
+        background-position: center center; /* Center the background image */
+    }
+    h1 {
+        font-size: 2.5em; 
+    }
+    h4 {
+        font-size: 1.5em; 
+        font-family: 'Bebas Neue', cursive;
+        color: #3d2514;
+        text-align: center;
+    }
+    /*
+     * form
+     */
+    
+    /* style inputs with type="text" */
+    input[type=text], textarea {
+        width: 25%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 40px;
+        margin-left: 35px;
+        resize: vertical;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 21px;
+    }
+      
+      /* submit button */
+      input[type=submit] {
+        background-color: #bf2222;
+        color: white;
+        padding: 20px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 35px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 21px;
+        width: 25%;
+        min-width: 50px;  
+        max-width: 300px; 
+      }
+      
+      /* button hover*/
+      input[type=submit]:hover {
+        background-color: white;
+      }
+      
+      /* background color */
+      .container {
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+      }
+      .container .background1{
+        float: left;
+        -webkit-filter: drop-shadow(5px 5px 5px #bdbdbd);
+        filter: drop-shadow(5px 5px 5px #bdbdbd);
+      }
+      .container .background2{
+        float: left;
+        -webkit-filter: drop-shadow(5px 5px 5px #bdbdbd);
+        filter:drop-shadow(28px 30px 29px #bdbdbd);
+      }
+      .container .background3{
+        float: right;
+        margin-top: 75px;
+        max-width: 20%;
+        -webkit-filter: drop-shadow(5px 5px 5px #bdbdbd);
+        filter: drop-shadow(10px 10px 30px #bdbdbd);
+      }
+      .container h1{
+        font-family: 'Alfa Slab One', cursive;
+        text-align: center;
+        color: #3d2514;
+      }
+      .container-1{
+        max-width: 100%;
+        height: auto;
+        float: left;
+        -webkit-filter: drop-shadow(5px 5px 5px #bdbdbd);
+        filter: drop-shadow(5px 5px 5px #bdbdbd);
+      }
+      .container .container-1 .background1{
+        max-width: 100%;
+        height: auto;
+        float: left;
+        -webkit-filter: drop-shadow(5px 5px 5px #bdbdbd);
+        filter: drop-shadow(5px 5px 5px #bdbdbd);
+      }
+    /*
+     * footer
+     */
+    .container-2{
+        height: 530px;
+        padding: 15px 57px 57px 57px;
+        background: url(../img/footer\ background.png);
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-size: contain;
+    }
+    .inner-container{
+        padding: 70px 30px 10px 30px;
+    }
+    .container-2 .logo2{
+        width: 90%;
+    }
+    .container-2 .paragraph{
+        width: 38%;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 24px;
+        margin-top: 10px;
+        float: left;
+    }
+    .container-2 .icon{
+        float: left;
+        margin: 10px 20px 5px 0;
+    }
+    .container-2 .icon-p1{
+        float: right;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        margin: 25px 5px 20px 7px;
+    }
+    .container-2 .icon-p2{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 60px;
+    }
+    .container-2 .icons{
+        float: right;
+        margin-top: 35px;
+    }
+    .container-2 .social{
+        display: block;
+        margin-top: 200px;
+    }
+    .container-2 .social-icon{
+        float: right;
+        display: block;
+        margin-top: 80px;
+    }
+    .social .social-p{
+        color: white;
+        float: left;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 17px;
+        margin-top: 70px;
+    }
+    .social ul li{
+        float: left;
+    }
+/*
+ * media view for >1024px screen
+ */
+ @media only screen and (max-width: 1024px){
+    body {
+       font-size: 14px;
+    }
+    h1 {
+       font-size: 2em;
+    }
+    .container .container-1 .background1 {
+      max-width: 70%;
+    }
+  }
+
+/*
+ * media view for >768px screen
+ */
+ @media only screen and (max-width: 768px){
+.container-1 {
+    max-width: 30%;
+}
+.container .container-1 .background1 {
+    max-width: 70%;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+}
+/*
+ * media view for >425px screen
+ */
+ @media only screen and (max-width: 425px){
+  .container-1 {
+      max-width: 30%;
+  }
+  .container .container-1 .background1 {
+      max-width: 70%;
+  }
+  
+  h1 {
+      font-size: 1.5em;
+  }
+}
